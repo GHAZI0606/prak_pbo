@@ -5,7 +5,7 @@ public class building {
     String addres;
     int number_floors;
 
-    public void building_name(String building_name, String addres, int number_floors) {
+    public building(String building_name, String addres, int number_floors) {
         this.building_name = building_name;
         this.addres = addres;
         this.number_floors = number_floors;
